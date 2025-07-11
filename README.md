@@ -27,7 +27,8 @@ Always review and test scripts in a safe environment before using them on real s
 
 
 
-** Requirements**
+ 
+**Requirements**
 
 Linux system (Ubuntu, Debian, Kali, etc.)
 
