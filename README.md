@@ -1,4 +1,4 @@
-# Bash-Scripts
+# Shell scripting
 A collection of practical and beginner-friendly Bash scripts for Linux system automation, server setup, and administrative tasks. These scripts are designed to simplify common tasks such as package installation, service management, user creation, permission handling, and more. Ideal for sysadmins, DevOps learners, and anyone looking to streamline their terminal workflow.
 
 
