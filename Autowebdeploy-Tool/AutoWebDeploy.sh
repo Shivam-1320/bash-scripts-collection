@@ -1,9 +1,11 @@
 #!/bin/bash
+
+
 # AutoWebDeploy - Bash Web Deployment Script
 # Author: Pankaj Baghel (https://github.com/Shivam-1320)
 # License: MIT
 # Created on: July 2025
-# Description: [ ]
+# Description: [AutoWebDeploy is a beginner-friendly Bash script that automates the deployment of web applications from a GitHub repository to a Linux server using Apache or NGINX.]
 
 # Please respect the open-source license.
 # Do not remove the credit if you reuse this script.
@@ -33,6 +35,26 @@ echo -e "${BLUE}
                                                    |_|            |___/
  ${NC}"
 #===========================================================================================================
+echo
+echo -e "\e[36mVersion 1.0\e[0m" 
+echo 
+echo -e "\e[36m[!] If you encounter any errors while running this script, please report them — 
+your small contribution helps improve and build a better version.\e[0m https://github.com/Shivam-1320"
+echo
+echo -e "\e[36m[*] AutoWebDeploy is a beginner-friendly Bash script that automates the deployment of web applications
+from a GitHub repository. You just provide your repo — it does the rest.\e[0m"
+echo 
+echo
+echo
+
+
+
+
+
+
+
+
+#==============================================================================================================
 
 
 echo -e "1. ${YELLOW}Which web server do you want to install?  ${NC}" apache / nginx /
@@ -41,7 +63,7 @@ read SERVER
 
 case "${SERVER,,}" in 
 
-apache)
+apache) 
 
      sudo apt update -y > /dev/null 2>&1
 
@@ -112,7 +134,7 @@ esac
     echo
     echo
 
-    echo -e "2. ${YELLOW}Permit to clean web directory location Type ! ${NC}  Y/N "
+    echo -e "2. ${YELLOW}Do you want to clean the web directory before deployment?${NC}  Y/N "
 read ANSWER 
 
 case "${ANSWER,,}" in
@@ -145,6 +167,8 @@ N|n|no|NO)
 
 echo -e "${RED}Invalid input. Please enter y or n. ${NC}"
 
+exit 1
+
 ;;
 
 esac
@@ -153,7 +177,7 @@ esac
 
 if [ $? -eq 0 ] ; then 
 
-   echo -e ">${GREEN}Dependences installation is complete ...${NC}"
+   echo -e ">${GREEN}Dependencies installation is complete ${NC}"
 else 
    echo -e ">${RED}Failed to install dependences! ${NC}"
 
@@ -233,7 +257,7 @@ fi
      echo
      echo
      echo
-     echo -e "${BLUE}Deployment completed successfully!\e[0m"
+     echo -e "${BLUE}Deployment complete! Visit your server IP to verify.\e[0m"
      echo
      echo
      echo -e "\e[36mScript created by: Pankaj Baghel \e[0m"
