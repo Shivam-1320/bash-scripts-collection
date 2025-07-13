@@ -45,4 +45,13 @@ Root privileges (for most scripts)
  
  **Credits**
  
-Created by Pankaj Baghel
+  Created by Pankaj Baghel
+
+## Contact
+
+You can reach me on GitHub by opening an issue in this repository,  
+or visit my profile: (https://github.com/shivam-1320)  
+
+Feel free to send me a message or create an issue for collaboration and questions.
+
+
