@@ -252,7 +252,7 @@ fi
      echo
      echo
 
-eixit 0
+exit 0
 #==============================================================================================================================
 # If you'd like to collaborate, contribute, or create new tools together
 # please feel free to contact me on GitHub.
