@@ -26,13 +26,12 @@ You just provide your repo — it does the rest.
 
 ### 1. Clone the Repository
 
-```bash
 git clone 
 cd AutoWebDeploy
 
 Then run with sudo ./AutoWebDeploy.sh
 
-<img width="702" height="270" alt="image" src="https://github.com/user-attachments/assets/ee894696-8a56-4862-b792-51649e420176" />
+
 
 
 
