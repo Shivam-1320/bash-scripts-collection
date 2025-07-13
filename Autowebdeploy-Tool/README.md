@@ -2,22 +2,38 @@
 Author: Pankaj Baghel (GitHub: shivam-1320)
 
 
-# Shell scripting
-A collection of practical and beginner-friendly Bash scripts for Linux system automation, server setup, and administrative tasks. These scripts are designed to simplify common tasks such as package installation, service management, user creation, permission handling, and more. Ideal for sysadmins, DevOps learners, and anyone looking to streamline their terminal workflow.
+# AutoWebDeploy
 
+**AutoWebDeploy** is a beginner-friendly Bash script that automates the deployment of web applications from a GitHub repository to a Linux server using Apache or NGINX.
 
+It’s designed for personal projects, testing environments, or learning automation using Bash.  
+You just provide your repo — it does the rest.
 
-**Features**
+---
 
-Install and configure services like Apache, Nginx, etc.
+##  Features
 
-Automated system updates and cleanup
+- Clone a GitHub repository to a target web directory
+- Automatically install Apache or NGINX (user choice)
+- Clean and update target directory before deployment
+- Set permissions correctly for web server usage
+- Restart the web server after deployment
+- Color-coded CLI for better user interaction
 
-User account creation with permission settings
+---
 
-Service status checking and conditional logic
+##  Getting Started
 
-Output messages with color formatting for better visibility
+### 1. Clone the Repository
+
+```bash
+git clone 
+cd AutoWebDeploy
+
+Then run with sudo ./AutoWebDeploy.sh
+
+<img width="702" height="270" alt="image" src="https://github.com/user-attachments/assets/ee894696-8a56-4862-b792-51649e420176" />
+
 
 
 
