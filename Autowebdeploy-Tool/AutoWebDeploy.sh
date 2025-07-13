@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+
 # AutoWebDeploy - Bash Web Deployment Script
 # Author: Pankaj Baghel (https://github.com/Shivam-1320)
 # License: MIT
@@ -9,8 +10,6 @@
 
 # Please respect the open-source license.
 # Do not remove the credit if you reuse this script.
-
-
 
 #Assigning variables 
 
@@ -46,16 +45,7 @@ from a GitHub repository. You just provide your repo — it does the rest.\e[0m"
 echo 
 echo
 echo
-
-
-
-
-
-
-
-
 #==============================================================================================================
-
 
 echo -e "1. ${YELLOW}Which web server do you want to install?  ${NC}" apache / nginx /
 
@@ -105,7 +95,6 @@ else
 exit 1
 
 fi 
-
     
     sudo apt install nginx -y > /dev/null 2>&1
 
@@ -128,8 +117,6 @@ else
     ;;
 
 esac
-
- 
 
     echo
     echo
@@ -184,7 +171,6 @@ else
    exit 1 
 
 fi 
-
 
 echo
 echo
@@ -265,11 +251,9 @@ fi
      echo
      echo
      echo
-     echo
-     echo
 
-exit 0
-
+eixit 0
+#==============================================================================================================================
 # If you'd like to collaborate, contribute, or create new tools together
 # please feel free to contact me on GitHub.
 # I’m a beginner learning to build useful tools.  
