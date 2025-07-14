@@ -26,7 +26,13 @@ You just provide your repo — it does the rest.
 
 ### 1. Clone the Repository
 
-git clone 
+git clone https://github.com/Shivam-1320/bash-scripts-collection.git
+
+cd Autowebdeploy-Tool
+
+chmod +x AutoWebDeploy.sh
+
+suod ./autowebdeploy.sh
 cd AutoWebDeploy
 
 Then run with sudo ./AutoWebDeploy.sh
