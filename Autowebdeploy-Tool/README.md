@@ -1,8 +1,10 @@
 
-Author: Pankaj Baghel (GitHub: shivam-1320)
 
 
 # AutoWebDeploy
+
+Author: Pankaj Baghel (GitHub: shivam-1320)
+
 
 **AutoWebDeploy** is a beginner-friendly Bash script that automates the deployment of web applications from a GitHub repository to a Linux server using Apache or NGINX.
 
