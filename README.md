@@ -31,13 +31,13 @@ Just provide your GitHub repo — AutoWebDeploy handles the rest.
 **🛠️ Getting Started**
 Step 1: Clone the Repository
 
-git clone https://github.com/Shivam-1320/bash-scripts-collection.git
+`git clone https://github.com/Shivam-1320/bash-scripts-collection.git`
 
-cd bash-scripts-collection/AutoWebDeploy
+`cd bash-scripts-collection/AutoWebDeploy`
 
-chmod +x AutoWebDeploy.sh
+`chmod +x AutoWebDeploy.sh`
 
-sudo ./AutoWebDeploy.sh
+`sudo ./AutoWebDeploy.sh`
 
 ![screenshot](Images./Screenshot.png)
 
