@@ -1,8 +1,7 @@
+**AutoWebDeploy****
 
-
-AutoWebDeploy
-Author: Pankaj Baghel
-GitHub: shivam-1320
+Author:**   Pankaj **Baghel
+GitHub:**   shivam-1320
 
 AutoWebDeploy is a beginner-friendly Bash script that automates the deployment of web applications from a GitHub repository to a Linux server using Apache or NGINX.
 
@@ -22,7 +21,7 @@ Just provide your GitHub repo — AutoWebDeploy handles the rest.
 
 ✅ Color-coded CLI output for an improved user experience
 
-🛠️ Getting Started
+**🛠️ Getting Started**
 Step 1: Clone the Repository
 bash
 Copy
@@ -31,24 +30,24 @@ git clone https://github.com/Shivam-1320/bash-scripts-collection.git
 cd bash-scripts-collection/AutoWebDeploy
 chmod +x AutoWebDeploy.sh
 sudo ./AutoWebDeploy.sh
-⚠️ Disclaimer
+**⚠️ Disclaimer**
 This project is under active development.
 Please do not use it in production environments without reviewing the code thoroughly.
 
 I'm still learning Bash scripting — there may be bugs, missing features, or unexpected behaviors. Always test scripts in a safe, controlled environment before real-world use.
 
-📋 Requirements
+**📋 Requirements**
 A Linux system (Ubuntu, Debian, Kali, etc.)
 
 Bash shell
 
 Root privileges (required for most operations)
 
-🙏 Credits
+**🙏 Credits****
 Created with passion by Pankaj Baghel
 Feel free to explore, contribute, or suggest improvements!
-
-📬 Contact
+**
+**📬 Contact****
 For feedback, issues, or collaboration, feel free to reach out via GitHub: shivam-1320
 
 🧪 Version: 0.1 — The next stable release is in progress.
