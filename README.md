@@ -13,7 +13,7 @@ AutoWebDeploy is a beginner-friendly Bash script that automates the deployment o
 It’s built for personal projects, testing environments, and those learning Bash automation.
 Just provide your GitHub repo — AutoWebDeploy handles the rest.
 
-🚀 Features
+**🚀 Features**
 
 ✅ Color-coded CLI output for an improved user experience
 
