@@ -52,7 +52,7 @@ Step 1: Clone the Repository
 
 `sudo ./AutoWebDeploy.sh`
 
-![screenshot](Images./Screenshot.png)
+![screenshot](Images/screenshot1.png)
 
 
 
