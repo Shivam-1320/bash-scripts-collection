@@ -1,7 +1,20 @@
-![screenshot](Images./logo.png)
+<img src="https://avatars.githubusercontent.com/u/101424800?v=4" width="80" align="left" />
+
+ **AutoWebDeploy**
 
 
-**AutoWebDeploy**
+
+
+![Built in](https://img.shields.io/badge/Built%20in-Bash-0891b)
+![Repo](https://img.shields.io/badge/GitHub-shivam--1320-blue?logo=github)
+![Downloads](https://img.shields.io/badge/Telegram-purple?link=https%3A%2F%2Ft.me%2FShivam_baghel1320)
+![Version](https://img.shields.io/badge/version-0.1-yellow)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+
+#
+
+
 
 
 > **Author:**  Pankaj Baghel
