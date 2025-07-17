@@ -39,7 +39,7 @@ sudo ./AutoWebDeploy.sh
 
 **DEMO VUIDEO**
 
-![Web Preview]https://drive.google.com/file/d/1RRv8dZvkQ3ZbC-NeyYM6ejat1-01g05O/view?usp=drive_link
+![DEMO](https://drive.google.com/file/d/1RRv8dZvkQ3ZbC-NeyYM6ejat1-01g05O/view?usp=drive_link)
 
 
 **⚠️ Disclaimer**
