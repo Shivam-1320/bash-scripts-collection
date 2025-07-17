@@ -46,7 +46,7 @@ Step 1: Clone the Repository
 
 `git clone https://github.com/Shivam-1320/bash-scripts-collection.git`
 
-`cd bash-scripts-collection/AutoWebDeploy`
+`cd bash-scripts-collection/Autowebdeploy-Tool`
 
 `chmod +x AutoWebDeploy.sh`
 
