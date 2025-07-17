@@ -1,77 +1,55 @@
+AutoWebDeploy
+Author: Pankaj Baghel
+GitHub: shivam-1320
 
+AutoWebDeploy is a beginner-friendly Bash script that automates the deployment of web applications from a GitHub repository to a Linux server using Apache or NGINX.
 
+It’s built for personal projects, testing environments, and those learning Bash automation.
+Just provide your GitHub repo — AutoWebDeploy handles the rest.
 
-# AutoWebDeploy
+🚀 Features
+✅ Clone any GitHub repository to your web directory
 
-Author: Pankaj Baghel (GitHub: shivam-1320)
+✅ Auto-install Apache or NGINX (based on your choice)
 
+✅ Clean and prepare the target directory before deployment
 
-**AutoWebDeploy** is a beginner-friendly Bash script that automates the deployment of web applications from a GitHub repository to a Linux server using Apache or NGINX.
+✅ Automatically set correct permissions for web access
 
-It’s designed for personal projects, testing environments, or learning automation using Bash.  
-You just provide your repo — it does the rest.
+✅ Restart the web server after deployment
 
----
+✅ Color-coded CLI output for an improved user experience
 
-##  Features
-
-- Clone a GitHub repository to a target web directory
-- Automatically install Apache or NGINX (user choice)
-- Clean and update target directory before deployment
-- Set permissions correctly for web server usage
-- Restart the web server after deployment
-- Color-coded CLI for better user interaction
-
----
-
-##  Getting Started
-
-### 1. Clone the Repository
-
+🛠️ Getting Started
+Step 1: Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/Shivam-1320/bash-scripts-collection.git
-
-cd Autowebdeploy-Tool
-
+cd bash-scripts-collection/AutoWebDeploy
 chmod +x AutoWebDeploy.sh
+sudo ./AutoWebDeploy.sh
+⚠️ Disclaimer
+This project is under active development.
+Please do not use it in production environments without reviewing the code thoroughly.
 
-suod ./autowebdeploy.sh
-cd AutoWebDeploy
+I'm still learning Bash scripting — there may be bugs, missing features, or unexpected behaviors. Always test scripts in a safe, controlled environment before real-world use.
 
-Then run with sudo ./AutoWebDeploy.sh
+📋 Requirements
+A Linux system (Ubuntu, Debian, Kali, etc.)
 
+Bash shell
 
+Root privileges (required for most operations)
 
+🙏 Credits
+Created with passion by Pankaj Baghel
+Feel free to explore, contribute, or suggest improvements!
 
+📬 Contact
+For feedback, issues, or collaboration, feel free to reach out via GitHub: shivam-1320
 
+🧪 Version: 0.1 — The next stable release is in progress.
+If you'd like a RedHat-compatible version, please open an issue!
 
-
-**⚠ Disclaimer**
-
-Please do not blindly trust or run these scripts in production environments.
-I’m a beginner still learning Bash scripting, and this repository is a work in progress.
-I frequently update and revise these scripts — mistakes are possible, and things may break.
-Always review and test scripts in a safe environment before using them on real systems.
-
-
-
- 
-**Requirements**
-
-Linux system (Ubuntu, Debian, Kali, etc.)
-
-bash shell
-
-Root privileges (for most scripts)
-
-
- 
- **Credits**
- 
-  Created by Pankaj Baghel
-
-## Contact
-
-You can reach me on GitHub by opening an issue in this repository,  
-or visit my profile: (https://github.com/shivam-1320)  
-
-Feel free to send me a message or create an issue for collaboration and questions.
+Let me know if you'd like to add badges, screenshots, or a demo video section.
