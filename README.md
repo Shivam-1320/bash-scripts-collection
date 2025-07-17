@@ -35,7 +35,7 @@ chmod +x AutoWebDeploy.sh
 
 sudo ./AutoWebDeploy.sh
 
-![SCREENSHOT](Images./Screenshot 2025-07-14 175121 - Copy.png)
+![screenshot](Images./Screenshot.png)
 
 
 ![DEMO VIDEO](Images./IMG_0950 - Copy.MOV)
