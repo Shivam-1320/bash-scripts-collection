@@ -35,11 +35,10 @@ chmod +x AutoWebDeploy.sh
 
 sudo ./AutoWebDeploy.sh
 
+![SCREENSHOT](https://drive.google.com/file/d/1NjwEi2O9AnWwXxbyYi7B28mmwz7JT5C0/view?usp=sharing)
 
 
-**DEMO VUIDEO**
-
-![DEMO](https://drive.google.com/file/d/1RRv8dZvkQ3ZbC-NeyYM6ejat1-01g05O/view?usp=drive_link)
+![DEMO VIDEO](https://drive.google.com/file/d/1RRv8dZvkQ3ZbC-NeyYM6ejat1-01g05O/view?usp=drive_link)
 
 
 **⚠️ Disclaimer**
