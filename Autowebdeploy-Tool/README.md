@@ -1,3 +1,5 @@
+
+
 AutoWebDeploy
 Author: Pankaj Baghel
 GitHub: shivam-1320
@@ -52,4 +54,3 @@ For feedback, issues, or collaboration, feel free to reach out via GitHub: shiva
 🧪 Version: 0.1 — The next stable release is in progress.
 If you'd like a RedHat-compatible version, please open an issue!
 
-Let me know if you'd like to add badges, screenshots, or a demo video section.
