@@ -57,7 +57,7 @@ Step 1: Clone the Repository
 
 
 
-[![Watch the demo video](https://drive.google.com/file/d/1RRv8dZvkQ3ZbC-NeyYM6ejat1-01g05O/view?usp=drive_link)  
+[Watch the demo video](https://drive.google.com/file/d/1RRv8dZvkQ3ZbC-NeyYM6ejat1-01g05O/view?usp=drive_link)  
 
 
 **⚠️ Disclaimer**
