@@ -1,0 +1,13 @@
+Package: autowebdeploy
+Version: 1.0
+Architecture: amd64
+Maintainer: Pankaj pankajbaghel1320@gmail.com
+Filename: pool/main/a/autowebdeploy/autowebdeploy.deb
+Size: 2582
+MD5sum: d08605214357184f18d8992a6c68117c
+SHA1: 7530472bef7fead7cb254abd0915c60d7743882d
+SHA256: 2fa7529943df3200388323fa802cfd411aa765319db82f8546aec6a232e4f87b
+Section: utils
+Priority: optional
+Description: One-command web deployment tool for Apache and Nginx
+
