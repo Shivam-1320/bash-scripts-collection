@@ -1,0 +1,15 @@
+Package: Autowebdeploy
+Version: 1.1
+Architecture: all
+Maintainer: Pankaj pankabaghel1320@gmail.com
+Depends: bash, git, curl
+Filename: pool/main/a/autowebdeploy/autowebdeploy_1.2_all.deb
+Size: 5796
+MD5sum: 378160f70cad40791f78cbc802b453bc
+SHA1: 9d49cc0074e7bede4c85d1ffd71ee7f20f26c0ab
+SHA256: e3f949c6335b84960ab14b6f28d8ca83bdda98988a94f65def5ded9880b196b6
+Section: base
+Priority: optional
+Description: hassle free web app deployment tool
+ Automates web server setup, SSL, and GitHub deployment.
+
