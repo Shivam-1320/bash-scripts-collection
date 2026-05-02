@@ -8,7 +8,7 @@
 ![Built in](https://img.shields.io/badge/Built%20in-Bash-0891b)
 ![Repo](https://img.shields.io/badge/GitHub-shivam--1320-blue?logo=github)
 ![Downloads](https://img.shields.io/badge/Telegram-purple?link=https%3A%2F%2Ft.me%2FShivam_baghel1320)
-![Version](https://img.shields.io/badge/version-0.1-yellow)
+![Version](https://img.shields.io/badge/version-1.1-yellow)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 
@@ -21,67 +21,95 @@
 
 > **GitHub:**  shivam-1320
 
-AutoWebDeploy is a beginner-friendly Bash script that automates the deployment of web applications from a GitHub repository to a Linux server using Apache or NGINX.
 
-It’s built for personal projects, testing environments, and those learning Bash automation.
-Just provide your GitHub repo — AutoWebDeploy handles the rest.
+ AutoWebDeploy v1.1 is a Bash-based automation tool that enables fast and hassle-free deployment of web applications directly from a GitHub repository to a Linux server using Apache or NGINX.
 
-**🚀 Features**
-
-✅ Color-coded CLI output for an improved user experience
-
-✅ Auto-install Apache or NGINX (based on your choice)
-
-✅ Clean and prepare the target directory before deployment
-
-✅ Clone any GitHub repository to your web directory
-
-✅ Automatically set correct permissions for web access
-
-✅ Restart the web server after deployment
+ Designed for beginners, developers, and system administrators, it reduces manual configuration and speeds up deployment workflows.
+ Simply provide your repository — AutoWebDeploy handles the entire setup and deployment process automatically.
+ 
 
 
-**🛠️ Getting Started**
-Step 1: Clone the Repository
+## ✨ Key Features
 
-`git clone https://github.com/Shivam-1320/bash-scripts-collection.git`
+-  **Web Server Selection**  
+  Choose between **Apache** or **NGINX**
 
-`cd bash-scripts-collection/Autowebdeploy-Tool`
+-  **Automatic SSL (HTTPS)**  
+  Just provide your **domain** and **email** — SSL is configured automatically via Let's Encrypt
 
-`chmod +x AutoWebDeploy.sh`
+-  **One-Command Deployment**  
+  From GitHub repo to live website in a single command
 
-`sudo ./AutoWebDeploy.sh`
+-  **Clean Deployment Options**  
+  Control whether old files are removed or preserved
 
-![screenshot](Images/screenshot1.png)
+-  **Beginner-Friendly**  
+  No deep Linux knowledge required
+
+-  **Safe & Controlled Execution**  
+  Optional flags to override or customize behavior
 
 
+---
+
+## 📦 Installation via APT (Recommended)
+
+Follow the steps below to install **AutoWebDeploy** on your Linux system.
+
+---
+```bash
+# Add repository
+echo "deb [trusted=yes] https://shivam-1320.github.io/Autowebdeploy stable main" | sudo tee /etc/apt/sources.list.d/autowebdeploy.list
+
+# Update system
+sudo apt update
+
+# Install tool
+sudo apt install autowebdeploy -y
+```
 
 
-[Watch the demo video](https://drive.google.com/file/d/1RRv8dZvkQ3ZbC-NeyYM6ejat1-01g05O/view?usp=drive_link)  
+## 🛠️ Command-Line Options (Flags)
+
+### `--force`
+
+Skip safety checks such as existing web server detection.  
+Useful when you want to override warnings and proceed.
+
+---
+
+### `--apache` / `--nginx`
+
+Select the web server:
+
+- `--apache` → Use Apache  
+- `--nginx` → Use NGINX  
+
+---
+
+### `--clean` / `--no-clean`
+
+Control deployment behavior:
+
+- `--clean` → Remove old files before deployment (fresh setup)  
+- `--no-clean` → Keep existing files (useful for updates)  
+
+---
+
+### `--default-repo`
+
+Use a predefined default GitHub repository.  
+Helpful for testing or quick deployment without entering a repo URL.
+
+---
+
+### `--ssl` / `--no-ssl`
+
+Control HTTPS setup:
+
+- `--ssl` → Enable SSL (requires domain & email)  
+- `--no-ssl` → Skip SSL (HTTP only)  
+
+---
 
 
-**⚠️ Disclaimer**
-
-This project is under active development.
-Please do not use it in production environments without reviewing the code thoroughly.
-
-I'm still learning Bash scripting — there may be bugs, missing features, or unexpected behaviors. Always test scripts in a safe, controlled environment before real-world use.
-
-**📋 Requirements**
-A Linux system (Ubuntu, Debian, Kali, etc.)
-
-Bash shell
-
-Root privileges (required for most operations)
-
-**🙏 Credits**
-
-Created with passion by Pankaj Baghel
-Feel free to explore, contribute, or suggest improvements!
-
-**📬 Contact**
-
-For feedback, issues, or collaboration, feel free to reach out via GitHub: shivam-1320
-
-🧪 Version: 0.1 — The next stable release is in progress.
-If you'd like a RedHat-compatible version, please open an issue!
